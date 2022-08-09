@@ -1,0 +1,31 @@
+{
+  "name": "oral-group-react",
+  "version": "1.0.0",
+  "description": "Proyecto con gulp, SASS y html",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirJulian26/Oral-Group-SAAS.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Julian Acosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirJulian26/Oral-Group-SAAS/issues"
+  },
+  "homepage": "https://github.com/SirJulian26/Oral-Group-SAAS#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.2"
+  }
+}
